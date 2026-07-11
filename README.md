@@ -19,12 +19,12 @@ Dentro delas você encontrará:
 
 ## 🛠️ Tecnologias e Ferramentas
 
-Os projetos podem variar em linguagem e ferramentas, mas alguns dos principais que utilizei são:
+Os projetos podem variar em linguagem e ferramentas, mas alguns dos principais que utilizo e exploro são:
 
 * **Linguagens:** JavaScript, TypeScript, Python, Java
-* **Frameworks/Bibliotecas:** React, Node.js, Angular
-* **Banco de Dados:** MySQL, MongoDB, PostgreSQL
-* **Ferramentas:** Git, GitHub, Docker
+* **Frameworks/Bibliotecas:** React, Next.js, Node.js, Fastify, FastAPI
+* **Banco de Dados:** PostgreSQL, MySQL, MongoDB
+* **Ferramentas & IA:** Git, GitHub, Docker, Swagger/OpenAPI, Google NotebookLM
 
 ---
 
@@ -39,9 +39,9 @@ Este repositório tem dois grandes objetivos:
 
 ## 📂 Projetos
 
-| Projeto   | Descrição                     | Tecnologias         |
+| Projeto | Descrição | Tecnologias |
 | --------- | ----------------------------- | ------------------- |
-| Projeto 1 | Breve resumo do que foi feito | Node.js, JavaScript |
+| [Miniguia de Estudos: OpenAPI](./miniguia-estudos-notebooklm) | Guia de padronização de APIs REST e estrutura de apresentação técnica criados com auxílio de IA. | NotebookLM, OpenAPI, Swagger, Prompt Engineering |
 | Projeto 2 | Breve resumo do que foi feito | React, TypeScript   |
 | Projeto 3 | Breve resumo do que foi feito | Python, Pandas      |
 
@@ -66,5 +66,3 @@ Feito com dedicação por **Guilherme Rabelo Machado**
 
 * GitHub: [gui1416](https://github.com/gui1416)
 * LinkedIn: [Meu Perfil](https://www.linkedin.com/in/guilherme-rabelo-machado/)
-
-
