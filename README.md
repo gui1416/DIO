@@ -45,8 +45,6 @@ Este repositório tem dois grandes objetivos:
 | Projeto 2 | Breve resumo do que foi feito | React, TypeScript   |
 | Projeto 3 | Breve resumo do que foi feito | Python, Pandas      |
 
-*(Lista em constante atualização conforme avanço nos estudos 🚧)*
-
 ---
 
 ## 📜 Certificados
