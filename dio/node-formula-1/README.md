@@ -1,81 +1,47 @@
-<div align="center">
+# 🏎️ API de Fórmula 1 - Desafio DIO
 
-  <img src="./.github/assets/blue-saiyan-bg.png" alt="Logo" height="200">
-  <h1 align="center"><strong>NODE BOILERPLATE - BLUE EDITION</strong></h1>
-  <p align="center">
-	  Don't start a new Node project from zero!<br> Use this simple <b>Nodejs</b> boilerplate with pre-configured <b>Typescript</b> in a modern way.
-  </p>
+Este projeto é uma API RESTful desenvolvida como parte de um desafio prático da [Digital Innovation One (DIO)](https://www.dio.me/). O objetivo é disponibilizar dados estruturados sobre o universo da Fórmula 1, permitindo a consulta rápida de informações sobre pilotos, corridas e escuderias.
 
-</div>
+## 🎯 Contexto e Objetivos
 
-<br />
+A construção desta API foca em consolidar os fundamentos do desenvolvimento backend com arquiteturas modernas. O projeto foi desenhado para ser leve e performático, isolando responsabilidades entre rotas, controladores e serviços.
 
-  <!-- Badges -->
-<div align="center">
-  
-  [![TypeScript version][ts-badge]][typescript-5-4]
-  [![Node.js version][nodejs-badge]][nodejs]
+**Objetivos principais:**
+- Criar endpoints consistentes para consumo de dados.
+- Estruturar a aplicação utilizando boas práticas de engenharia de software.
+- Validar contratos de entrada e saída de dados.
 
-</div>
+## 🛠️ Tecnologias Utilizadas
 
-# 🚀 Technologies
+A stack do projeto foi escolhida para garantir velocidade de execução e segurança de tipagem:
+*   **Node.js:** Ambiente de execução.
+*   **Fastify:** Framework web focado em alta performance e baixo overhead.
+*   **TypeScript:** Tipagem estática para maior previsibilidade e manutenção do código.
 
-This code source was developed with the following items:
+## 🚀 Como Executar o Projeto
 
-### 📦 Dependencies
-
-- [typescript][typescript-npm] - Superset for application scale JavaScript development
-- [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
-- [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
-- [@types/node][@types/node-npm] - type definitions for node
-
-### 📄 Files
-
-- `.gitignore` - Ignore folders like node_modules
-- `.env` - Enviroment variables
-- `tsconfig.json` - Typescript configure Options
-
-### ⚡ Scripts
-
-- `npm run dist`: Compiles TypeScript files to JavaScript in the dist directory.
-- `npm run start:dev`: Runs the server in development mode with environment variables loaded from the .env file.
-- `npm run start:watch`: Runs the server in development mode with support for automatic reload on file changes.
-- `npm run start:dist`: Compiles the project and runs the compiled version from the dist directory.
-
-# 👨‍💻 How To Use
-
-click in **[Use this template]** OR
-
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) + [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
-
+1. Clone este repositório para sua máquina local.
+2. Acesse a pasta do projeto via terminal e instale as dependências (que serão alocadas na pasta `node_modules`[cite: 3]):
 ```bash
-# Clone this repository
-$ git clone https://github.com/felipeAguiarCode/node-blue-boilerplate
-
-# Go into the repository
-$ cd node-blue-boilerplate
-
-# Install dependencies
-$ npm install
+   npm install
 ```
 
-## Author
+3. Crie um arquivo `.env` na raiz do projeto contendo as variáveis de ambiente necessárias (este arquivo não é rastreado pelo controle de versão).
 
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                            [Linkedin](www.linkedin.com/in/felipe-aguiar-exe/)                                             |
 
-# Credits
+4. Inicie o servidor em modo de desenvolvimento:
+```bash
+npm run dev
+```
 
-icons by [Pino Lamanna][dribble-icon]
 
-[typescript]: https://www.typescriptlang.org/
-[typescript-5-4]: https://www.typescriptlang.org/
-[ts-badge]: https://img.shields.io/badge/TypeScript-5.4-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2020.00-blue.svg
-[nodejs]: https://nodejs.org/
-[dribble-icon]: https://dribbble.com/Schakalwal
-[typescript-npm]: https://www.npmjs.com/package/typescript
-[tsx-npm]: https://www.npmjs.com/package/tsx
-[tsup-npm]: https://www.npmjs.com/package/tsup
-[@types/node-npm]: https://www.npmjs.com/package/@types/node
+5. A API estará escutando as requisições, geralmente na porta `3333` ou na configurada no seu `.env`.
+
+
+
+## 🛣️ Endpoints Principais (Exemplos)
+
+* `GET /drivers` - Retorna a lista completa de pilotos da temporada.
+* `GET /drivers/:id` - Retorna os dados detalhados de um piloto específico.
+* `GET /teams` - Retorna as informações das escuderias ativas.
+

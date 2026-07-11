@@ -42,7 +42,7 @@ Este repositório tem dois grandes objetivos:
 | Projeto | Descrição | Tecnologias |
 | --------- | ----------------------------- | ------------------- |
 | [Miniguia de Estudos: OpenAPI](./miniguia-estudos-notebooklm) | Guia de padronização de APIs REST e estrutura de apresentação técnica criados com auxílio de IA. | NotebookLM, OpenAPI, Swagger, Prompt Engineering |
-| Projeto 2 | Breve resumo do que foi feito | React, TypeScript   |
+| [API de Fórmula 1](./api-formula-1) | API RESTful desenvolvida para fornecer dados sobre pilotos e escuderias da Fórmula 1. | Node.js, Fastify, TypeScript |
 | Projeto 3 | Breve resumo do que foi feito | Python, Pandas      |
 
 ---
