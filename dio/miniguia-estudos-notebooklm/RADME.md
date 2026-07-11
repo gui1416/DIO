@@ -386,6 +386,8 @@ Este projeto demonstrou uma aplicação prática da Inteligência Artificial com
 
 A combinação entre curadoria de fontes confiáveis, engenharia de prompts e organização do conhecimento permitiu construir um material de estudo reutilizável, estruturado e de fácil consulta, servindo como base para futuras revisões e aprofundamentos sobre APIs REST e OpenAPI.
 
+### Interessados segue link do chat com notebooklm: https://notebooklm.google.com/notebook/0985404f-84b8-4115-80d1-8b1ea2a81e2c
+
 ---
 
 ## 👨‍💻 Autor
