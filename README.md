@@ -41,9 +41,9 @@ Este repositório tem dois grandes objetivos:
 
 | Projeto | Descrição | Tecnologias |
 | --------- | ----------------------------- | ------------------- |
-| [Miniguia de Estudos: OpenAPI](./miniguia-estudos-notebooklm) | Guia de padronização de APIs REST e estrutura de apresentação técnica criados com auxílio de IA. | NotebookLM, OpenAPI, Swagger, Prompt Engineering |
-| [API de Fórmula 1](./api-formula-1) | API RESTful desenvolvida para fornecer dados sobre pilotos e escuderias da Fórmula 1. | Node.js, Fastify, TypeScript |
-| Projeto 3 | Breve resumo do que foi feito | Python, Pandas      |
+| [Miniguia de Estudos: OpenAPI](/dio/miniguia-estudos-notebooklm) | Guia de padronização de APIs REST e estrutura de apresentação técnica criados com auxílio de IA. | NotebookLM, OpenAPI, Swagger, Prompt Engineering |
+| [API de Fórmula 1](/dio/node-formula-1) | API RESTful desenvolvida para fornecer dados sobre pilotos e escuderias da Fórmula 1. | Node.js, Fastify, TypeScript |
+| [Classificador de Nível do Heroi](/dio/classificador-nivel-heroi) | Solução do desafio de lógica de programação da DIO que classifica heróis de acordo com sua experiência (XP), utilizando estruturas condicionais e laços de repetição. | JavaScript, Node.js |
 
 ---
 
@@ -66,3 +66,4 @@ Feito com dedicação por **Guilherme Rabelo Machado**
 
 * GitHub: [gui1416](https://github.com/gui1416)
 * LinkedIn: [Meu Perfil](https://www.linkedin.com/in/guilherme-rabelo-machado/)
+* Portfólio: [Meu Portfólio](https://portifolio-v8.vercel.app/hero)
