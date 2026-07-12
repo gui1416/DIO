@@ -44,6 +44,8 @@ Este repositório tem dois grandes objetivos:
 | [Miniguia de Estudos: OpenAPI](/dio/miniguia-estudos-notebooklm) | Guia de padronização de APIs REST e estrutura de apresentação técnica criados com auxílio de IA. | NotebookLM, OpenAPI, Swagger, Prompt Engineering |
 | [API de Fórmula 1](/dio/node-formula-1) | API RESTful desenvolvida para fornecer dados sobre pilotos e escuderias da Fórmula 1. | Node.js, Fastify, TypeScript |
 | [Classificador de Nível do Heroi](/dio/classificador-nivel-heroi) | Solução do desafio de lógica de programação da DIO que classifica heróis de acordo com sua experiência (XP), utilizando estruturas condicionais e laços de repetição. | JavaScript, Node.js |
+| [Calculadora de Partidas Rankeadas](/dio/calculadora-partidas-rankeadas) | Solução do desafio de lógica de programação da DIO que classifica heróis de acordo com sua experiência (XP), utilizando estruturas condicionais e laços de repetição. | JavaScript, Node.js |
+| [Calculadora de Partidas Rankeadas](/dio/calculadora-partidas-rankeadas) | Implementação de uma calculadora de partidas ranqueadas que calcula o saldo de vitórias e determina o nível do jogador utilizando funções, estruturas condicionais e laços de repetição. | JavaScript, Node.js |
 
 ---
 
