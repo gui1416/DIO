@@ -46,6 +46,7 @@ Este repositório tem dois grandes objetivos:
 | [Classificador de Nível do Heroi](/dio/classificador-nivel-heroi) | Solução do desafio de lógica de programação da DIO que classifica heróis de acordo com sua experiência (XP), utilizando estruturas condicionais e laços de repetição. | JavaScript, Node.js |
 | [Calculadora de Partidas Rankeadas](/dio/calculadora-partidas-rankeadas) | Solução do desafio de lógica de programação da DIO que classifica heróis de acordo com sua experiência (XP), utilizando estruturas condicionais e laços de repetição. | JavaScript, Node.js |
 | [Calculadora de Partidas Rankeadas](/dio/calculadora-partidas-rankeadas) | Implementação de uma calculadora de partidas ranqueadas que calcula o saldo de vitórias e determina o nível do jogador utilizando funções, estruturas condicionais e laços de repetição. | JavaScript, Node.js |
+| [Escrevendo as Classes de um Jogo](/dio/escrevendo-classes-jogo) | Implementação de uma classe `Hero` para representar personagens de um jogo, utilizando Programação Orientada a Objetos para definir atributos, métodos e diferentes tipos de ataque. | JavaScript, Node.js, POO |
 
 ---
 
